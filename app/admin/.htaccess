@@ -1,0 +1,13 @@
+#Redirecionamento
+
+RewriteEngine on	
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php
+
+#Proteção Htaccess
+
+<files ~ "^.*\.([Hh][Tt][Aa])">
+order allow,deny
+deny from all
+satisfy all
+</files>
