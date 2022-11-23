@@ -1,0 +1,26 @@
+
+body {
+  width: 100%;
+}
+
+.titulo {
+  display: flex;
+  font-size: 6vw;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 50px;
+  background-image: url(/admin/src/view/assets/css/img/fundo_home.jpg);
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+#logo-home {
+
+  height: 150px;
+
+}
+.navegador {
+  padding-top: 0px;
+}
